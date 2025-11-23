@@ -21,10 +21,21 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.theanderson98.filaconferenciaapp",
+     "googleServicesFile": "./android/app/google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ba1a8a7a-93c5-4b8d-a8e5-74b402e7d949"
+      }
+    },
+    "owner": "theanderson98",
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
